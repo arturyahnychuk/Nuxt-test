@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arturyahnychuk@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.12"
+  }
+}
